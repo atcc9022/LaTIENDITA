@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: $colorE2;
+}
+
+nav{
+    background-color:#FAE85A
+}
+
+.navbar-brand{
+    color: black;
+    font-family: $font;
+    font-size: $latiendita;
+    font-weight: $regular;
+
+}
+
+.navbar-brand:hover{
+    color: $colorE2;
+}
+.nav-link{
+    color: black;
+    font-family: $font;
+    font-size: $inicio;
+    font-weight: $regular;
+}
+
+.nav-link:hover{
+    color: $colorE2;
+}
+
+.subtitle{
+    font-family: $font;
+    font-size: $novedades;
+    font-weight: $bold;
+    color: $colorA1;
+}
+
+.card__padre{
+    width: 13%;
+    margin-top: 10px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+button {
+    background-color: $colorBoton;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: $bold;
+    border-color: coral;
+    font-family: $font;
+}
+
+footer{
+    background-color: #FAE85A;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer__text{
+    font-family: $font;
+    font-size:$derechos;
+    margin-top: 10px;
+}
